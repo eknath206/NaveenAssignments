@@ -61,11 +61,11 @@ public class HomePage extends TestBase {
 			System.out.println(pr);
 		}
 
-		// WebElement reqdPrice = allPrices.get(4);
+		//WebElement reqdPrice = allPrices.get(4);
 
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,2000)");
-		// js.executeScript("arguments[0].scrollIntoView();", reqdPrice);
+		//js.executeScript("arguments[0].scrollIntoView(true);", reqdPrice);
 
 		Thread.sleep(2000);
 
